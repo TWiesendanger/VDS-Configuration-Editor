@@ -102,11 +102,17 @@
     <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD.Custom\addins\ADSK.QS.breadCrumb.ps1">
       <Link>CAD.Custom\addins\ADSK.QS.breadCrumb.ps1</Link>
     </None>
+    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD.Custom\addins\ADSK.QS.CAD.Library.ps1">
+      <Link>CAD.Custom\addins\ADSK.QS.CAD.Library.ps1</Link>
+    </None>
     <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD.Custom\addins\ADSK.QS.Default.ps1">
       <Link>CAD.Custom\addins\ADSK.QS.Default.ps1</Link>
     </None>
-    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD.Custom\Configuration\AutoCAD-Mechanical\AutoCAD.cfg">
-      <Link>CAD.Custom\Configuration\AutoCAD-Mechanical\AutoCAD.cfg</Link>
+    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD.Custom\addins\ADSK.QS.FileNameValidation.ps1">
+      <Link>CAD.Custom\addins\ADSK.QS.FileNameValidation.ps1</Link>
+    </None>
+    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD.Custom\Configuration\AutoCAD-Vanilla\AutoCAD.cfg">
+      <Link>CAD.Custom\Configuration\AutoCAD-Vanilla\AutoCAD.cfg</Link>
     </None>
     <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD.Custom\Configuration\AutoCAD.cfg">
       <Link>CAD.Custom\Configuration\AutoCAD.cfg</Link>
@@ -135,14 +141,11 @@
     <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\HelpFiles\debug.log">
       <Link>HelpFiles\debug.log</Link>
     </None>
-    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\addinVault\ADSK.QS.ActivateSchedTaskAsJob.ps1">
-      <Link>Vault.Custom\addinVault\ADSK.QS.ActivateSchedTaskAsJob.ps1</Link>
+    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\addinVault\ADSK.Org.Pers.Link.ps1">
+      <Link>Vault.Custom\addinVault\ADSK.Org.Pers.Link.ps1</Link>
     </None>
     <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\addinVault\ADSK.QS.Default.ps1">
       <Link>Vault.Custom\addinVault\ADSK.QS.Default.ps1</Link>
-    </None>
-    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\addinVault\Adsk.QS.EcoUpdate.ps1">
-      <Link>Vault.Custom\addinVault\Adsk.QS.EcoUpdate.ps1</Link>
     </None>
     <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\addinVault\ADSK.QS.FileBOM.ps1">
       <Link>Vault.Custom\addinVault\ADSK.QS.FileBOM.ps1</Link>
@@ -150,8 +153,8 @@
     <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\addinVault\ADSK.QS.ReserveFileNumber.ps1">
       <Link>Vault.Custom\addinVault\ADSK.QS.ReserveFileNumber.ps1</Link>
     </None>
-    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\addinVault\Menus\ADSK.QS.ActivateSchedTask.ps1">
-      <Link>Vault.Custom\addinVault\Menus\ADSK.QS.ActivateSchedTask.ps1</Link>
+    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\addinVault\ADSK.QS.VLT.Library.ps1">
+      <Link>Vault.Custom\addinVault\ADSK.QS.VLT.Library.ps1</Link>
     </None>
     <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\addinVault\Menus\ADSK.QS.CreateCustomObject.ps1">
       <Link>Vault.Custom\addinVault\Menus\ADSK.QS.CreateCustomObject.ps1</Link>
@@ -173,9 +176,6 @@
     </None>
     <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\addinVault\Menus\ADSK.QS.ReserveNumbers.ps1">
       <Link>Vault.Custom\addinVault\Menus\ADSK.QS.ReserveNumbers.ps1</Link>
-    </None>
-    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\addinVault\QuickstartExtension.ps1">
-      <Link>Vault.Custom\addinVault\QuickstartExtension.ps1</Link>
     </None>
     <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault\addinVault\AssociatedFiles.ps1">
       <Link>Vault\addinVault\AssociatedFiles.ps1</Link>
@@ -222,9 +222,213 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD.Custom\Configuration\AutoCAD-Mechanical\AutoCadDynamicProperties.xml">
-      <Link>CAD.Custom\Configuration\AutoCAD-Mechanical\AutoCadDynamicProperties.xml</Link>
-    </Resource>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD.Custom\Configuration\AutoCAD-Vanilla\AutoCAD.xaml">
+      <Link>CAD.Custom\Configuration\AutoCAD-Vanilla\AutoCAD.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD.Custom\Configuration\AutoCAD.xaml">
+      <Link>CAD.Custom\Configuration\AutoCAD.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD.Custom\Configuration\CableAndHarness.xaml">
+      <Link>CAD.Custom\Configuration\CableAndHarness.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD.Custom\Configuration\DesignAccelerator.xaml">
+      <Link>CAD.Custom\Configuration\DesignAccelerator.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD.Custom\Configuration\FrameGenerator.xaml">
+      <Link>CAD.Custom\Configuration\FrameGenerator.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD.Custom\Configuration\Inventor.xaml">
+      <Link>CAD.Custom\Configuration\Inventor.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD.Custom\Configuration\SaveCopyAs.xaml">
+      <Link>CAD.Custom\Configuration\SaveCopyAs.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD.Custom\Configuration\TubeAndPipe.xaml">
+      <Link>CAD.Custom\Configuration\TubeAndPipe.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD\Configuration\AutoCAD-Vanilla.xaml">
+      <Link>CAD\Configuration\AutoCAD-Vanilla.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD\Configuration\AutoCAD.xaml">
+      <Link>CAD\Configuration\AutoCAD.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD\Configuration\CableAndHarness.xaml">
+      <Link>CAD\Configuration\CableAndHarness.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD\Configuration\DesignAccelerator.xaml">
+      <Link>CAD\Configuration\DesignAccelerator.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD\Configuration\FrameGenerator.xaml">
+      <Link>CAD\Configuration\FrameGenerator.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD\Configuration\Inventor.xaml">
+      <Link>CAD\Configuration\Inventor.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD\Configuration\SaveCopyAs.xaml">
+      <Link>CAD\Configuration\SaveCopyAs.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD\Configuration\TubeAndPipe.xaml">
+      <Link>CAD\Configuration\TubeAndPipe.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\ADSK.QS.CustomObject.xaml">
+      <Link>Vault.Custom\Configuration\ADSK.QS.CustomObject.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\ADSK.QS.File.xaml">
+      <Link>Vault.Custom\Configuration\ADSK.QS.File.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\ADSK.QS.FileOffice.xaml">
+      <Link>Vault.Custom\Configuration\ADSK.QS.FileOffice.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\ADSK.QS.Folder.xaml">
+      <Link>Vault.Custom\Configuration\ADSK.QS.Folder.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\ADSK.QS.ReserveNumbers.xaml">
+      <Link>Vault.Custom\Configuration\ADSK.QS.ReserveNumbers.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\Aufgabe\ADSK.QS.CUSTENT.Datasheet.xaml">
+      <Link>Vault.Custom\Configuration\Aufgabe\ADSK.QS.CUSTENT.Datasheet.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\File\ADSK.QS.CAD BOM.xaml">
+      <Link>Vault.Custom\Configuration\File\ADSK.QS.CAD BOM.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\File\ADSK.QS.FileDataSheet.xaml">
+      <Link>Vault.Custom\Configuration\File\ADSK.QS.FileDataSheet.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\Folder\ADSK.QS.FolderDataSheet.xaml">
+      <Link>Vault.Custom\Configuration\Folder\ADSK.QS.FolderDataSheet.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\Organisation\ADSK.QS.CUSTENT.Datasheet.xaml">
+      <Link>Vault.Custom\Configuration\Organisation\ADSK.QS.CUSTENT.Datasheet.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\Person\ADSK.QS.CUSTENT.Datasheet.xaml">
+      <Link>Vault.Custom\Configuration\Person\ADSK.QS.CUSTENT.Datasheet.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\Sendung\ADSK.QS.CUSTENT.Datasheet.xaml">
+      <Link>Vault.Custom\Configuration\Sendung\ADSK.QS.CUSTENT.Datasheet.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\Task\ADSK.QS.CUSTENT.Datasheet.xaml">
+      <Link>Vault.Custom\Configuration\Task\ADSK.QS.CUSTENT.Datasheet.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\Transmittal\ADSK.QS.CUSTENT.Datasheet.xaml">
+      <Link>Vault.Custom\Configuration\Transmittal\ADSK.QS.CUSTENT.Datasheet.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault\Configuration\CustomObject.xaml">
+      <Link>Vault\Configuration\CustomObject.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault\Configuration\Eco\Datasheet.xaml">
+      <Link>Vault\Configuration\Eco\Datasheet.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault\Configuration\File.xaml">
+      <Link>Vault\Configuration\File.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault\Configuration\FileOffice.xaml">
+      <Link>Vault\Configuration\FileOffice.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault\Configuration\File\CAD BOM.xaml">
+      <Link>Vault\Configuration\File\CAD BOM.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault\Configuration\File\Datasheet.xaml">
+      <Link>Vault\Configuration\File\Datasheet.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault\Configuration\Folder.xaml">
+      <Link>Vault\Configuration\Folder.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault\Configuration\Folder\Datasheet.xaml">
+      <Link>Vault\Configuration\Folder\Datasheet.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault\Configuration\Item\Associated Files.xaml">
+      <Link>Vault\Configuration\Item\Associated Files.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault\Configuration\Item\Datasheet.xaml">
+      <Link>Vault\Configuration\Item\Datasheet.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault\Configuration\Task\Datasheet.xaml">
+      <Link>Vault\Configuration\Task\Datasheet.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD.Custom\Configuration\AutoCadDynamicProperties.xml">
       <Link>CAD.Custom\Configuration\AutoCadDynamicProperties.xml</Link>
     </Resource>
@@ -242,7 +446,6 @@
     </Resource>
     <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\en-US\UIStrings.xml">
       <Link>en-US\UIStrings.xml</Link>
-      <SubType>Designer</SubType>
     </Resource>
     <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\HelpFiles\C.1GeneralInformation.html">
       <Link>HelpFiles\C.1GeneralInformation.html</Link>
@@ -1006,6 +1209,9 @@
     <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\addinVault\QuickstartUtilityLibrary.dll">
       <Link>Vault.Custom\addinVault\QuickstartUtilityLibrary.dll</Link>
     </Content>
+    <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\cancel.ico">
+      <Link>Vault.Custom\cancel.ico</Link>
+    </Resource>
     <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Claim-add.ico">
       <Link>Vault.Custom\Claim-add.ico</Link>
     </Resource>
@@ -1087,6 +1293,15 @@
     <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Folder2019.xml">
       <Link>Vault.Custom\Folder2019.xml</Link>
     </Resource>
+    <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\GoToReplacedBy.ico">
+      <Link>Vault.Custom\GoToReplacedBy.ico</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\GoToSelectedFile.ico">
+      <Link>Vault.Custom\GoToSelectedFile.ico</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\GoToSource.ico">
+      <Link>Vault.Custom\GoToSource.ico</Link>
+    </Resource>
     <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Lock.ico">
       <Link>Vault.Custom\Lock.ico</Link>
     </Resource>
@@ -1117,6 +1332,18 @@
     <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\NewStandardFolder.ico">
       <Link>Vault.Custom\NewStandardFolder.ico</Link>
     </Resource>
+    <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\ok.ico">
+      <Link>Vault.Custom\ok.ico</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\PlaceFromVault.ico">
+      <Link>Vault.Custom\PlaceFromVault.ico</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\plus.ico">
+      <Link>Vault.Custom\plus.ico</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\plus_disabled.ico">
+      <Link>Vault.Custom\plus_disabled.ico</Link>
+    </Resource>
     <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\QR-add.ico">
       <Link>Vault.Custom\QR-add.ico</Link>
     </Resource>
@@ -1134,6 +1361,9 @@
     </Resource>
     <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\ReserveNumbers.ico">
       <Link>Vault.Custom\ReserveNumbers.ico</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\search.ico">
+      <Link>Vault.Custom\search.ico</Link>
     </Resource>
     <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Service-add.ico">
       <Link>Vault.Custom\Service-add.ico</Link>
@@ -1294,218 +1524,6 @@
     <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault\NewStandardFolder.ico">
       <Link>Vault\NewStandardFolder.ico</Link>
     </Resource>
-  </ItemGroup>
-  <ItemGroup>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD.Custom\Configuration\AutoCAD-Mechanical\AutoCAD.xaml">
-      <Link>CAD.Custom\Configuration\AutoCAD-Mechanical\AutoCAD.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD.Custom\Configuration\AutoCAD.xaml">
-      <Link>CAD.Custom\Configuration\AutoCAD.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD.Custom\Configuration\CableAndHarness.xaml">
-      <Link>CAD.Custom\Configuration\CableAndHarness.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD.Custom\Configuration\DesignAccelerator.xaml">
-      <Link>CAD.Custom\Configuration\DesignAccelerator.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD.Custom\Configuration\FrameGenerator.xaml">
-      <Link>CAD.Custom\Configuration\FrameGenerator.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD.Custom\Configuration\Inventor.xaml">
-      <Link>CAD.Custom\Configuration\Inventor.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD.Custom\Configuration\SaveCopyAs.xaml">
-      <Link>CAD.Custom\Configuration\SaveCopyAs.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD.Custom\Configuration\TubeAndPipe.xaml">
-      <Link>CAD.Custom\Configuration\TubeAndPipe.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD\Configuration\AutoCAD-Vanilla.xaml">
-      <Link>CAD\Configuration\AutoCAD-Vanilla.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD\Configuration\AutoCAD.xaml">
-      <Link>CAD\Configuration\AutoCAD.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD\Configuration\CableAndHarness.xaml">
-      <Link>CAD\Configuration\CableAndHarness.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD\Configuration\DesignAccelerator.xaml">
-      <Link>CAD\Configuration\DesignAccelerator.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD\Configuration\FrameGenerator.xaml">
-      <Link>CAD\Configuration\FrameGenerator.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD\Configuration\Inventor.xaml">
-      <Link>CAD\Configuration\Inventor.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD\Configuration\SaveCopyAs.xaml">
-      <Link>CAD\Configuration\SaveCopyAs.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\CAD\Configuration\TubeAndPipe.xaml">
-      <Link>CAD\Configuration\TubeAndPipe.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\ADSK.QS.ActivateSchedTask.xaml">
-      <Link>Vault.Custom\Configuration\ADSK.QS.ActivateSchedTask.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\ADSK.QS.CustomObject.xaml">
-      <Link>Vault.Custom\Configuration\ADSK.QS.CustomObject.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\ADSK.QS.File.xaml">
-      <Link>Vault.Custom\Configuration\ADSK.QS.File.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\ADSK.QS.FileOffice.xaml">
-      <Link>Vault.Custom\Configuration\ADSK.QS.FileOffice.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\ADSK.QS.Folder.xaml">
-      <Link>Vault.Custom\Configuration\ADSK.QS.Folder.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\ADSK.QS.ReserveNumbers.xaml">
-      <Link>Vault.Custom\Configuration\ADSK.QS.ReserveNumbers.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\Aufgabe\ADSK.QS.CUSTENT.Datasheet.xaml">
-      <Link>Vault.Custom\Configuration\Aufgabe\ADSK.QS.CUSTENT.Datasheet.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\File\ADSK.QS.CAD BOM.xaml">
-      <Link>Vault.Custom\Configuration\File\ADSK.QS.CAD BOM.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\File\ADSK.QS.FileDataSheet.xaml">
-      <Link>Vault.Custom\Configuration\File\ADSK.QS.FileDataSheet.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\Folder\ADSK.QS.FolderDataSheet.xaml">
-      <Link>Vault.Custom\Configuration\Folder\ADSK.QS.FolderDataSheet.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\Organisation\ADSK.QS.CUSTENT.Datasheet.xaml">
-      <Link>Vault.Custom\Configuration\Organisation\ADSK.QS.CUSTENT.Datasheet.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\Person\ADSK.QS.CUSTENT.Datasheet.xaml">
-      <Link>Vault.Custom\Configuration\Person\ADSK.QS.CUSTENT.Datasheet.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\Sendung\ADSK.QS.CUSTENT.Datasheet.xaml">
-      <Link>Vault.Custom\Configuration\Sendung\ADSK.QS.CUSTENT.Datasheet.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\Task\ADSK.QS.CUSTENT.Datasheet.xaml">
-      <Link>Vault.Custom\Configuration\Task\ADSK.QS.CUSTENT.Datasheet.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\Transmittal\ADSK.QS.CUSTENT.Datasheet.xaml">
-      <Link>Vault.Custom\Configuration\Transmittal\ADSK.QS.CUSTENT.Datasheet.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault\Configuration\CustomObject.xaml">
-      <Link>Vault\Configuration\CustomObject.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault\Configuration\Eco\Datasheet.xaml">
-      <Link>Vault\Configuration\Eco\Datasheet.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault\Configuration\File.xaml">
-      <Link>Vault\Configuration\File.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault\Configuration\FileOffice.xaml">
-      <Link>Vault\Configuration\FileOffice.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault\Configuration\File\CAD BOM.xaml">
-      <Link>Vault\Configuration\File\CAD BOM.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault\Configuration\File\Datasheet.xaml">
-      <Link>Vault\Configuration\File\Datasheet.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault\Configuration\Folder.xaml">
-      <Link>Vault\Configuration\Folder.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault\Configuration\Folder\Datasheet.xaml">
-      <Link>Vault\Configuration\Folder\Datasheet.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault\Configuration\Item\Associated Files.xaml">
-      <Link>Vault\Configuration\Item\Associated Files.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault\Configuration\Item\Datasheet.xaml">
-      <Link>Vault\Configuration\Item\Datasheet.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault\Configuration\Task\Datasheet.xaml">
-      <Link>Vault\Configuration\Task\Datasheet.xaml</Link>
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
