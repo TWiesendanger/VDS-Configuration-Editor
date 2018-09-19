@@ -30,6 +30,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VDS-2019-ConfigLinks-OTX-Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VDS-2019-ConfigLinks-VLT-MKDE", "VDS-2019-ConfigLinks-VLT-MKDE\VDS-2019-ConfigLinks-VLT-MKDE.csproj", "{7A3D9249-A6C3-437A-AF3E-770A6C961B48}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VDS-2019-ConfigLinks-QuickStart-incl.Extensions", "VDS-2019-ConfigLinks-QuickStart-incl.Extensions\VDS-2019-ConfigLinks-QuickStart-incl.Extensions.csproj", "{F2792041-110F-45E7-8DC1-4D8C04662153}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -148,6 +150,18 @@ Global
 		{7A3D9249-A6C3-437A-AF3E-770A6C961B48}.WiP|Any CPU.Build.0 = Release|Any CPU
 		{7A3D9249-A6C3-437A-AF3E-770A6C961B48}.WiP|x64.ActiveCfg = Release|x64
 		{7A3D9249-A6C3-437A-AF3E-770A6C961B48}.WiP|x64.Build.0 = Release|x64
+		{F2792041-110F-45E7-8DC1-4D8C04662153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2792041-110F-45E7-8DC1-4D8C04662153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2792041-110F-45E7-8DC1-4D8C04662153}.Debug|x64.ActiveCfg = Debug|x64
+		{F2792041-110F-45E7-8DC1-4D8C04662153}.Debug|x64.Build.0 = Debug|x64
+		{F2792041-110F-45E7-8DC1-4D8C04662153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2792041-110F-45E7-8DC1-4D8C04662153}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2792041-110F-45E7-8DC1-4D8C04662153}.Release|x64.ActiveCfg = Release|x64
+		{F2792041-110F-45E7-8DC1-4D8C04662153}.Release|x64.Build.0 = Release|x64
+		{F2792041-110F-45E7-8DC1-4D8C04662153}.WiP|Any CPU.ActiveCfg = Release|Any CPU
+		{F2792041-110F-45E7-8DC1-4D8C04662153}.WiP|Any CPU.Build.0 = Release|Any CPU
+		{F2792041-110F-45E7-8DC1-4D8C04662153}.WiP|x64.ActiveCfg = Release|x64
+		{F2792041-110F-45E7-8DC1-4D8C04662153}.WiP|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
