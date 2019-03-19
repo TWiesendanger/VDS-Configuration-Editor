@@ -34,6 +34,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VDS-2019-ConfigLinks-QuickS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VDS-2020-ConfigLinks-Quickstart", "VDS-2020-ConfigLinks-Quickstart\VDS-2020-ConfigLinks-Quickstart.csproj", "{80F0959B-E71B-42E4-9145-087489BB3B9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VDS-2020-ConfigLinks-Quickstart-Advanced", "VDS-2020-ConfigLinks-Quickstart-Advanced\VDS-2020-ConfigLinks-Quickstart-Advanced.csproj", "{385974B0-DDB0-457D-AB1E-22C0ADB0A42A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,18 @@ Global
 		{80F0959B-E71B-42E4-9145-087489BB3B9C}.WiP|Any CPU.Build.0 = Release|Any CPU
 		{80F0959B-E71B-42E4-9145-087489BB3B9C}.WiP|x64.ActiveCfg = Release|Any CPU
 		{80F0959B-E71B-42E4-9145-087489BB3B9C}.WiP|x64.Build.0 = Release|Any CPU
+		{385974B0-DDB0-457D-AB1E-22C0ADB0A42A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{385974B0-DDB0-457D-AB1E-22C0ADB0A42A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{385974B0-DDB0-457D-AB1E-22C0ADB0A42A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{385974B0-DDB0-457D-AB1E-22C0ADB0A42A}.Debug|x64.Build.0 = Debug|Any CPU
+		{385974B0-DDB0-457D-AB1E-22C0ADB0A42A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{385974B0-DDB0-457D-AB1E-22C0ADB0A42A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{385974B0-DDB0-457D-AB1E-22C0ADB0A42A}.Release|x64.ActiveCfg = Release|Any CPU
+		{385974B0-DDB0-457D-AB1E-22C0ADB0A42A}.Release|x64.Build.0 = Release|Any CPU
+		{385974B0-DDB0-457D-AB1E-22C0ADB0A42A}.WiP|Any CPU.ActiveCfg = Release|Any CPU
+		{385974B0-DDB0-457D-AB1E-22C0ADB0A42A}.WiP|Any CPU.Build.0 = Release|Any CPU
+		{385974B0-DDB0-457D-AB1E-22C0ADB0A42A}.WiP|x64.ActiveCfg = Release|Any CPU
+		{385974B0-DDB0-457D-AB1E-22C0ADB0A42A}.WiP|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
