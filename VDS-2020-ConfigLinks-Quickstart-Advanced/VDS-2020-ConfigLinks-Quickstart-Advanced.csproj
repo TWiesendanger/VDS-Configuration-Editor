@@ -170,6 +170,9 @@
     <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2020\Extensions\DataStandard\Vault.Custom\addinVault\Menus\ADSK.QS.AddPdfDsgnRepToQu.ps1">
       <Link>Vault.Custom\addinVault\Menus\ADSK.QS.AddPdfDsgnRepToQu.ps1</Link>
     </None>
+    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2020\Extensions\DataStandard\Vault.Custom\addinVault\Menus\ADSK.QS.AdskFilePropProvider.ps1">
+      <Link>Vault.Custom\addinVault\Menus\ADSK.QS.AdskFilePropProvider.ps1</Link>
+    </None>
     <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2020\Extensions\DataStandard\Vault.Custom\addinVault\Menus\ADSK.QS.CreateCustomObject.ps1">
       <Link>Vault.Custom\addinVault\Menus\ADSK.QS.CreateCustomObject.ps1</Link>
     </None>
