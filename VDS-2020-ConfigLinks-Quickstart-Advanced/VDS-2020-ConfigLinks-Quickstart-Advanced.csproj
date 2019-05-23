@@ -43,6 +43,7 @@
     </Reference>
     <Reference Include="CreateObject">
       <HintPath>..\..\..\..\..\..\ProgramData\Autodesk\Vault 2020\Extensions\DataStandard\CreateObject.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="dataStandard.UI">
       <HintPath>..\..\..\..\..\..\ProgramData\Autodesk\ApplicationPlugins\Autodesk DataStandard 2020.bundle\Contents\dataStandard.UI.dll</HintPath>

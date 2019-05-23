@@ -147,6 +147,9 @@
     <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\addinVault\ADSK.QS.ActivateSchedTaskAsJob.ps1">
       <Link>Vault.Custom\addinVault\ADSK.QS.ActivateSchedTaskAsJob.ps1</Link>
     </None>
+    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\addinVault\ADSK.QS.AssociatedCustents.ps1">
+      <Link>Vault.Custom\addinVault\ADSK.QS.AssociatedCustents.ps1</Link>
+    </None>
     <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\addinVault\ADSK.QS.Classification.ps1">
       <Link>Vault.Custom\addinVault\ADSK.QS.Classification.ps1</Link>
     </None>
@@ -409,6 +412,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\ECO\ADSK.QS.LinkedTasks.xaml">
+      <Link>Vault.Custom\Configuration\ECO\ADSK.QS.LinkedTasks.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\File\ADSK.QS.CAD BOM.xaml">
       <Link>Vault.Custom\Configuration\File\ADSK.QS.CAD BOM.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
@@ -529,6 +537,12 @@
     <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\addinVault\UsesWhereUsed.dll">
       <Link>Vault.Custom\addinVault\UsesWhereUsed.dll</Link>
     </Content>
+    <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\ECO\Icons\Claim-Settings.ico">
+      <Link>Vault.Custom\Configuration\ECO\Icons\Claim-Settings.ico</Link>
+    </Resource>
+    <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\Configuration\ECO\Icons\task-info.ico">
+      <Link>Vault.Custom\Configuration\ECO\Icons\task-info.ico</Link>
+    </Resource>
     <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2019\Extensions\DataStandard\Vault.Custom\PDF.ico">
       <Link>Vault.Custom\PDF.ico</Link>
     </Resource>
