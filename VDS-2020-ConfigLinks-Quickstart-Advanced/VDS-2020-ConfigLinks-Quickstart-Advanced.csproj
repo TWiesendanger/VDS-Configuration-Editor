@@ -138,6 +138,9 @@
     <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2020\Extensions\DataStandard\Vault.Custom\addinVault\ADSK.QS.DerivationTree.ps1">
       <Link>Vault.Custom\addinVault\ADSK.QS.DerivationTree.ps1</Link>
     </None>
+    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2020\Extensions\DataStandard\Vault.Custom\addinVault\ADSK.QS.ECOTaskLink.ps1">
+      <Link>Vault.Custom\addinVault\ADSK.QS.ECOTaskLink.ps1</Link>
+    </None>
     <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2020\Extensions\DataStandard\Vault.Custom\addinVault\ADSK.QS.FileBOM.ps1">
       <Link>Vault.Custom\addinVault\ADSK.QS.FileBOM.ps1</Link>
     </None>
@@ -207,8 +210,14 @@
     <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2020\Extensions\DataStandard\Vault.Custom\addinVault\Menus\ADSK.QS.GoToSelectedFile.ps1">
       <Link>Vault.Custom\addinVault\Menus\ADSK.QS.GoToSelectedFile.ps1</Link>
     </None>
+    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2020\Extensions\DataStandard\Vault.Custom\addinVault\Menus\ADSK.QS.GoToSelectedTask.ps1">
+      <Link>Vault.Custom\addinVault\Menus\ADSK.QS.GoToSelectedTask.ps1</Link>
+    </None>
     <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2020\Extensions\DataStandard\Vault.Custom\addinVault\Menus\ADSK.QS.GoToSourceFile.ps1">
       <Link>Vault.Custom\addinVault\Menus\ADSK.QS.GoToSourceFile.ps1</Link>
+    </None>
+    <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2020\Extensions\DataStandard\Vault.Custom\addinVault\Menus\ADSK.QS.GoToTasksECO.ps1">
+      <Link>Vault.Custom\addinVault\Menus\ADSK.QS.GoToTasksECO.ps1</Link>
     </None>
     <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2020\Extensions\DataStandard\Vault.Custom\addinVault\Menus\ADSK.QS.ImportFiles.ps1">
       <Link>Vault.Custom\addinVault\Menus\ADSK.QS.ImportFiles.ps1</Link>
@@ -399,6 +408,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2020\Extensions\DataStandard\Vault.Custom\Configuration\Eco\ADSK.QS.TaskLinks.xaml">
+      <Link>Vault.Custom\Configuration\Eco\ADSK.QS.TaskLinks.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2020\Extensions\DataStandard\Vault.Custom\Configuration\File\ADSK.QS.CAD BOM.xaml">
       <Link>Vault.Custom\Configuration\File\ADSK.QS.CAD BOM.xaml</Link>
       <Generator>MSBuild:Compile</Generator>
@@ -521,6 +535,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2020\Extensions\DataStandard\Vault.Custom\Configuration\Eco\Icons\Claim-Settings.ico">
+      <Link>Vault.Custom\Configuration\Eco\Icons\Claim-Settings.ico</Link>
+    </Resource>
     <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2020\Extensions\DataStandard\Vault.Custom\Folder2020.xml">
       <Link>Vault.Custom\Folder2020.xml</Link>
     </Resource>
@@ -538,12 +555,14 @@
     </Resource>
     <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2020\Extensions\DataStandard\de-DE\UIStrings.xml">
       <Link>de-DE\UIStrings.xml</Link>
+      <SubType>Designer</SubType>
     </Resource>
     <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2020\Extensions\DataStandard\en-US\PropertyTranslations.xml">
       <Link>en-US\PropertyTranslations.xml</Link>
     </Resource>
     <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2020\Extensions\DataStandard\en-US\UIStrings.xml">
       <Link>en-US\UIStrings.xml</Link>
+      <SubType>Designer</SubType>
     </Resource>
     <Content Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2020\Extensions\DataStandard\HelpFiles\C.1GeneralInformation.html">
       <Link>HelpFiles\C.1GeneralInformation.html</Link>
@@ -1390,6 +1409,7 @@
     </Resource>
     <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2020\Extensions\DataStandard\Vault.Custom\Configuration\VaultDynamicProperties.xml">
       <Link>Vault.Custom\Configuration\VaultDynamicProperties.xml</Link>
+      <SubType>Designer</SubType>
     </Resource>
     <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2020\Extensions\DataStandard\Vault.Custom\CopyIcon.ico">
       <Link>Vault.Custom\CopyIcon.ico</Link>

@@ -36,6 +36,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VDS-2020-ConfigLinks-Quicks
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VDS-2020-ConfigLinks-Quickstart-Advanced", "VDS-2020-ConfigLinks-Quickstart-Advanced\VDS-2020-ConfigLinks-Quickstart-Advanced.csproj", "{385974B0-DDB0-457D-AB1E-22C0ADB0A42A}"
 EndProject
+Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "API-2020-ScriptEditor", "API-2020-ScriptEditor\API-2020-ScriptEditor.pssproj", "{BC912D60-027C-4ACF-97ED-A410E17DD996}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -179,6 +181,18 @@ Global
 		{385974B0-DDB0-457D-AB1E-22C0ADB0A42A}.WiP|Any CPU.Build.0 = Release|Any CPU
 		{385974B0-DDB0-457D-AB1E-22C0ADB0A42A}.WiP|x64.ActiveCfg = Release|Any CPU
 		{385974B0-DDB0-457D-AB1E-22C0ADB0A42A}.WiP|x64.Build.0 = Release|Any CPU
+		{BC912D60-027C-4ACF-97ED-A410E17DD996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC912D60-027C-4ACF-97ED-A410E17DD996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC912D60-027C-4ACF-97ED-A410E17DD996}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BC912D60-027C-4ACF-97ED-A410E17DD996}.Debug|x64.Build.0 = Debug|Any CPU
+		{BC912D60-027C-4ACF-97ED-A410E17DD996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC912D60-027C-4ACF-97ED-A410E17DD996}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC912D60-027C-4ACF-97ED-A410E17DD996}.Release|x64.ActiveCfg = Release|Any CPU
+		{BC912D60-027C-4ACF-97ED-A410E17DD996}.Release|x64.Build.0 = Release|Any CPU
+		{BC912D60-027C-4ACF-97ED-A410E17DD996}.WiP|Any CPU.ActiveCfg = Release|Any CPU
+		{BC912D60-027C-4ACF-97ED-A410E17DD996}.WiP|Any CPU.Build.0 = Release|Any CPU
+		{BC912D60-027C-4ACF-97ED-A410E17DD996}.WiP|x64.ActiveCfg = Release|Any CPU
+		{BC912D60-027C-4ACF-97ED-A410E17DD996}.WiP|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
