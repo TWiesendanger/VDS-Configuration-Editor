@@ -1742,6 +1742,7 @@
     </Resource>
     <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2020\Extensions\DataStandard\Vault\DSLanguages.xml">
       <Link>Vault\DSLanguages.xml</Link>
+      <SubType>Designer</SubType>
     </Resource>
     <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2020\Extensions\DataStandard\Vault\EditFileDatasheet.ico">
       <Link>Vault\EditFileDatasheet.ico</Link>

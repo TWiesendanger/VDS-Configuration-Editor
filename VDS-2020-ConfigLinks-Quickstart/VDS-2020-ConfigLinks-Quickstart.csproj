@@ -238,7 +238,6 @@
     <None Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2020\Extensions\DataStandard\Vault\CustomEntityDefinitions.json">
       <Link>Vault\CustomEntityDefinitions.json</Link>
     </None>
-    <None Include="app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -529,6 +528,7 @@
     </Resource>
     <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2020\Extensions\DataStandard\Vault\MenuDefinitions.xml">
       <Link>Vault\MenuDefinitions.xml</Link>
+      <SubType>Designer</SubType>
     </Resource>
     <Resource Include="..\..\..\..\..\..\ProgramData\Autodesk\Vault 2020\Extensions\DataStandard\Vault\NewStandardFile.ico">
       <Link>Vault\NewStandardFile.ico</Link>

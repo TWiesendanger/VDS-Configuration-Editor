@@ -16,6 +16,10 @@ WPF type projects linking the default (RTM) and Quickstart (Autodesk Technical S
 	allows to directly edit your active configuration. Use separate projects for different configuration file sets, e.g. 2018.1-ConfigLinks-Quickstart uses
 	custom names for scripts and additional configruation files. This project references 2018.2 SDK and VDS 2018.1 libraries.
 - VDS-2019-ConfigLinks: the same as before, just referencing 2019 SDK and 2019 VDS libraries.
+- VDS-2020-Configurations
+	VDS-2020-ConfigLinks-Quickstart: Edit the configuration sample available for download here: https://github.com/koechlm/VDS-Quickstart-2020/releases/latest
+	VDS-2020-ConfigLinks-Quickstart-Advanced: Edit work-in-progress branch(es) *Advanced* selected from main repository: https://github.com/koechlm/VDS-Quickstart-2020
+	VDS-2020-Tutorial: WiP. Editor for samples included in upcoming VDS Tutorial configuration sample (April 2020 time frame)
 
 Best practice creating custom configuration file sets: comparing 2018.1 and 2018.1-Quickstart .\Custom\ folder file sets, you will recognize additional files.
 	These are loaded as override, and may contain functions with equal names like "InitializeWindows". As VDS 2018.1 and later loads configurations, 
