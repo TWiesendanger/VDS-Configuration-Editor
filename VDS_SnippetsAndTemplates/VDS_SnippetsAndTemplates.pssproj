@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Snippet Templates\VDS-PS-Snippet.snippet" />
+    <Content Include="VDS Script Snippets\Inventor-API-Access.snippet" />
     <Content Include="VDS XAML Snippets\VDS-XAML-ConverterCulture.snippet" />
     <Content Include="VDS XAML Snippets\VDS-XAML-reference-for-CultureInfo.snippet" />
     <Content Include="Snippet Templates\VDS-XAML-Snippet.snippet" />
