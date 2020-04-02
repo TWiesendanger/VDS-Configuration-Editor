@@ -11,11 +11,15 @@ Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "VDS_SnippetsAndTemplates", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_README ETC.", "_README ETC.", "{F4A0592A-F834-4152-8E3E-77031E02F8E0}"
 	ProjectSection(SolutionItems) = preProject
+		..\..\Documents\Visual Studio 2017\Templates\ProjectTemplates\API-2020-Onboarding-PowerShell.zip = ..\..\Documents\Visual Studio 2017\Templates\ProjectTemplates\API-2020-Onboarding-PowerShell.zip
+		..\..\Documents\Visual Studio 2017\Templates\ProjectTemplates\API-2021-ScriptEditor.zip = ..\..\Documents\Visual Studio 2017\Templates\ProjectTemplates\API-2021-ScriptEditor.zip
+		API-2021-ScriptEditor.zip = API-2021-ScriptEditor.zip
 		Autodesk Vault Data Standard - VDS-ConfigurationEditor.pptx = Autodesk Vault Data Standard - VDS-ConfigurationEditor.pptx
 		Disclaimer.txt = Disclaimer.txt
 		README.md = README.md
-		VDS-2018-ConfigEditor.zip = VDS-2018-ConfigEditor.zip
 		VDS-2019-ConfigEditor.zip = VDS-2019-ConfigEditor.zip
+		..\..\Documents\Visual Studio 2017\My Exported Templates\VDS-2020-Editor-Template.zip = ..\..\Documents\Visual Studio 2017\My Exported Templates\VDS-2020-Editor-Template.zip
+		VDS-2021-Editor-Template.zip = VDS-2021-Editor-Template.zip
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VDS-2019-ConfigEditor", "VDS-2019-ConfigEditor\VDS-2019-ConfigEditor.csproj", "{CD6EF509-0150-426A-B350-5777D7D23CC9}"
@@ -31,6 +35,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VDS-2020-ConfigLinks-Default", "VDS-2020-ConfigLinks-Default\VDS-2020-ConfigLinks-Default.csproj", "{DE1B1CCC-4484-408E-AF01-99588019990E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VDS-2021-ConfigLinks-Default", "VDS-2021-ConfigLinks-Default\VDS-2021-ConfigLinks-Default.csproj", "{A78A5A56-E359-4B40-A5B3-8DB4DACF3B50}"
+EndProject
+Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "API-2021-ScriptEditor", "API-2021-ScriptEditor\API-2021-ScriptEditor.pssproj", "{B924F00B-FF98-4053-BC95-8E8A69987259}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -146,6 +152,18 @@ Global
 		{A78A5A56-E359-4B40-A5B3-8DB4DACF3B50}.WiP|Any CPU.Build.0 = Release|Any CPU
 		{A78A5A56-E359-4B40-A5B3-8DB4DACF3B50}.WiP|x64.ActiveCfg = Release|x64
 		{A78A5A56-E359-4B40-A5B3-8DB4DACF3B50}.WiP|x64.Build.0 = Release|x64
+		{B924F00B-FF98-4053-BC95-8E8A69987259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B924F00B-FF98-4053-BC95-8E8A69987259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B924F00B-FF98-4053-BC95-8E8A69987259}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B924F00B-FF98-4053-BC95-8E8A69987259}.Debug|x64.Build.0 = Debug|Any CPU
+		{B924F00B-FF98-4053-BC95-8E8A69987259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B924F00B-FF98-4053-BC95-8E8A69987259}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B924F00B-FF98-4053-BC95-8E8A69987259}.Release|x64.ActiveCfg = Release|Any CPU
+		{B924F00B-FF98-4053-BC95-8E8A69987259}.Release|x64.Build.0 = Release|Any CPU
+		{B924F00B-FF98-4053-BC95-8E8A69987259}.WiP|Any CPU.ActiveCfg = Release|Any CPU
+		{B924F00B-FF98-4053-BC95-8E8A69987259}.WiP|Any CPU.Build.0 = Release|Any CPU
+		{B924F00B-FF98-4053-BC95-8E8A69987259}.WiP|x64.ActiveCfg = Release|Any CPU
+		{B924F00B-FF98-4053-BC95-8E8A69987259}.WiP|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

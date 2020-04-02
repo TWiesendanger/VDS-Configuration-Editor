@@ -30,6 +30,7 @@
     <Compile Include="Vault-API-2020-Sample-Search-File-byDate.ps1" />
     <Compile Include="Vault-API-2020-Sample-GetPrimaryFileOfItem.ps1" />
     <Compile Include="Vault-API-2020-Sample-QueryGroupMembership.ps1" />
+    <Compile Include="Vault-API-2020-Template.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
