@@ -38,6 +38,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VDS-2021-ConfigLinks-Defaul
 EndProject
 Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "API-2021-ScriptEditor", "API-2021-ScriptEditor\API-2021-ScriptEditor.pssproj", "{B924F00B-FF98-4053-BC95-8E8A69987259}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VDS-2021-Quickstart-Standard", "VDS-2021-Quickstart-Standard\VDS-2021-Quickstart-Standard.csproj", "{AAEB13FD-EF2B-4356-AF97-A3A63DD3332F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -164,6 +166,18 @@ Global
 		{B924F00B-FF98-4053-BC95-8E8A69987259}.WiP|Any CPU.Build.0 = Release|Any CPU
 		{B924F00B-FF98-4053-BC95-8E8A69987259}.WiP|x64.ActiveCfg = Release|Any CPU
 		{B924F00B-FF98-4053-BC95-8E8A69987259}.WiP|x64.Build.0 = Release|Any CPU
+		{AAEB13FD-EF2B-4356-AF97-A3A63DD3332F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAEB13FD-EF2B-4356-AF97-A3A63DD3332F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAEB13FD-EF2B-4356-AF97-A3A63DD3332F}.Debug|x64.ActiveCfg = Debug|x64
+		{AAEB13FD-EF2B-4356-AF97-A3A63DD3332F}.Debug|x64.Build.0 = Debug|x64
+		{AAEB13FD-EF2B-4356-AF97-A3A63DD3332F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAEB13FD-EF2B-4356-AF97-A3A63DD3332F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAEB13FD-EF2B-4356-AF97-A3A63DD3332F}.Release|x64.ActiveCfg = Release|x64
+		{AAEB13FD-EF2B-4356-AF97-A3A63DD3332F}.Release|x64.Build.0 = Release|x64
+		{AAEB13FD-EF2B-4356-AF97-A3A63DD3332F}.WiP|Any CPU.ActiveCfg = Release|Any CPU
+		{AAEB13FD-EF2B-4356-AF97-A3A63DD3332F}.WiP|Any CPU.Build.0 = Release|Any CPU
+		{AAEB13FD-EF2B-4356-AF97-A3A63DD3332F}.WiP|x64.ActiveCfg = Release|x64
+		{AAEB13FD-EF2B-4356-AF97-A3A63DD3332F}.WiP|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
