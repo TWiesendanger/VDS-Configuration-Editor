@@ -27,6 +27,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Vault-API-2021-Sample-CreateNewItem.ps1" />
+    <Compile Include="Vault-API-2021-LogOnUsing_Dialog_AutoLogon.ps1" />
     <Compile Include="Vault-API-2021-Template.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
